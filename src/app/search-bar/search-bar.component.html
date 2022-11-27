@@ -1,0 +1,10 @@
+<!-- <input (input)="term = $event.target.value"/>Type Your Search Boo -->
+<div class="box">
+    <form (submit)="onFormSubmit($event)">
+        <input 
+            (input)="onInput($event)"
+            class="input"
+            placeholder="What Do You Want on your Tombstone? (Sponsored by Wikipedia!)"
+        />
+    </form>
+</div>
